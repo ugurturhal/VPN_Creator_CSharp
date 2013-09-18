@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             
-            if (File.Exists(fileName)) // Dosya Varsa
+            if (File.Exists(fileName))
             {
                 StringBuilder newFile = new StringBuilder();
                 string[] file = File.ReadAllLines(fileName);
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
                     MessageBox.Show("Windows already has a VPN connection like this settings. Please check your connections...");
                 }
             }
-            else // Dosya Yoksa
+            else
             {
                 string rasphone = createNewFile();
                 File.WriteAllText(fileName, rasphone);
