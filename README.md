@@ -1,4 +1,4 @@
-VPN_Creator_CSharp
+C# VPN Creator
 ==================
 
 Coded by Uğur TURHAL
